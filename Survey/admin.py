@@ -1,10 +1,11 @@
 from django.contrib import admin
+from import_export.admin import ImportExportActionModelAdmin
+
 from Survey.models import Respondent, Survey, Question, Answer
 
 
-class RespondentAdmin(admin.ModelAdmin):
+class RespondentAdmin(ImportExportActionModelAdmin):
     model = Respondent
-
     list_display = ('id', 'ip_address', 'email', 'phone_number')
     list_display_links = ('id', 'email')
     search_fields = ('email', 'ip_address')
@@ -41,7 +42,7 @@ class QuestionAdmin(admin.ModelAdmin):
     save_as = True
 
 
-class AnswerAdmin(admin.ModelAdmin):
+class AnswerAdmin(ImportExportActionModelAdmin):
     model = Answer
 
     list_display = ('id', 'answer_text', 'question', 'respondent')
