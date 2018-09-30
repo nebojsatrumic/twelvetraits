@@ -1,5 +1,5 @@
 from Survey.models.survey import Survey
-from .basemodel import BaseModel
+from libs.basemodel import BaseModel
 from django.db import models
 
 

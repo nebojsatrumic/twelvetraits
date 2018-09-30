@@ -1,4 +1,4 @@
-from .basemodel import BaseModel
+from libs.basemodel import BaseModel
 from django.db import models
 
 from django.core.validators import RegexValidator

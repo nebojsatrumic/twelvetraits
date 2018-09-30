@@ -2,7 +2,7 @@ from django.db import models
 
 from Survey.models.question import Question
 from Survey.models.respondent import Respondent
-from .basemodel import BaseModel
+from libs.basemodel import BaseModel
 
 
 class Answer(BaseModel):

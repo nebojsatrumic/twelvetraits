@@ -1,7 +1,7 @@
 from django.core.validators import EmailValidator
 from django.db import models
 
-from .basemodel import BaseModel
+from libs.basemodel import BaseModel
 
 
 class Respondent(BaseModel):
