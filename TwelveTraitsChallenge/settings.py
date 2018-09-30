@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Survey',
+    'rest_framework',
+    'rest_framework_swagger'
 ]
 
 MIDDLEWARE = [
@@ -76,7 +79,12 @@ WSGI_APPLICATION = 'TwelveTraitsChallenge.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'survey',
+        'USER': 'nebojsa',
+        'PASSWORD': 'nebojsa',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
