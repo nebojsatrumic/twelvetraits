@@ -39,12 +39,12 @@ Get endpoint is basically there to query the database and retrieve aggregated in
 
 
 ## List of components that used ##
-Django (https://www.djangoproject.com/)
-djangorestframework (http://www.django-rest-framework.org/) - Used for creating RESTful API
-psycopg2 (http://initd.org/psycopg/)
-drf-extensions (https://pypi.org/project/drf-extensions/)
-django-rest-swagger (https://django-rest-swagger.readthedocs.io/en/latest/) - Used for API documentation in Survey app
-django-import-export (https://django-import-export.readthedocs.io/en/latest/) - Used for importing and exporting data in admin view of Survey app
+* Django (https://www.djangoproject.com/)
+* djangorestframework (http://www.django-rest-framework.org/) - Used for creating RESTful API
+* psycopg2 (http://initd.org/psycopg/)
+* drf-extensions (https://pypi.org/project/drf-extensions/)
+* django-rest-swagger (https://django-rest-swagger.readthedocs.io/en/latest/) - Used for API documentation in Survey app
+* django-import-export (https://django-import-export.readthedocs.io/en/latest/) - Used for importing and exporting data in admin view of Survey app
 
 ## Considerations ##
 
